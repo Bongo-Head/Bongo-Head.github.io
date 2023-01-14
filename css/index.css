@@ -4475,6 +4475,29 @@ span.mathjax-overflow {
 .snackbar-css {
   border-radius: 5px !important;
 }
+[data-theme="dark"] #web_bg {
+  background: url(https://picbed.heimarmene.top/img/nebula1.jpg);
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 800px) {
+  #web_bg {
+    background: url(https://picbed.heimarmene.top/img/solar3.png) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  [data-theme="dark"] #web_bg {
+    background: url(https://picbed.heimarmene.top/img/astro3.jpg) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+}
 #article-container .btn-center {
   margin: 0 0 20px;
   text-align: center;
